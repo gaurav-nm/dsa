@@ -56,6 +56,7 @@ int main(){
 
     int a = 21 ;
     cout << !a << endl ;
+    cout << "good bye for this" << endl ;
     
 
 }
