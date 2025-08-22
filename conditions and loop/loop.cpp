@@ -25,7 +25,7 @@ i= i+1 ;
 
     }
     
-*/
+
 
 
 cout << " To print 111 222 333 like str" << endl ;
@@ -46,7 +46,9 @@ while ( i <= n){
     }
 cout << endl ;
 i = i+1 ;
-
-
 }
+*/
+
+cout << "next file for part 2 lecture" << endl ;
+
 }
