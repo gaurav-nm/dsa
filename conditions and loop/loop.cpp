@@ -47,8 +47,12 @@ while ( i <= n){
 cout << endl ;
 i = i+1 ;
 }
-*/
+
 
 cout << "next file for part 2 lecture" << endl ;
+
+*/
+
+
 
 }
