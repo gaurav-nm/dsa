@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile and Run",
+            "type": "shell",
+            "command": "cd \"${fileDirname}\" && g++ -std=c++17 -Wall -g \"${fileBasename}\" -o \"${fileBasenameNoExtension}\" && ./${fileBasenameNoExtension} < input.txt > output.txt",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}
