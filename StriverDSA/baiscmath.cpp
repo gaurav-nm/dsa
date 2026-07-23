@@ -21,7 +21,8 @@ public:
 };
 
 int main() {
-    int number = 153;
+    int number;
+    cin >> number;
 
     // Use class method to check
     if (ArmstrongChecker::isArmstrong(number)) {
