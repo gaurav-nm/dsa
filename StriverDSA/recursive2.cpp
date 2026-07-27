@@ -10,13 +10,20 @@ int sumN(int n ){
 };
 
 
+// Factorial of a given number
 
+int factorial(int n ){
+    if (n == 1 ){
+        return 1;
+    }
+    return n * factorial(n-1);
+}
 
 int main(){
     int n ;
     cout << "Enter value of N: "<< " " ;
     cin >> n ;
-    cout << "the sum of first N numbers : "<< sumN(n) << endl;
+    cout << "the FACTORIAL OF N : "<< factorial(n) << endl;
 
-    return 0;
+    
 }
