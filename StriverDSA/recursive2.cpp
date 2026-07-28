@@ -19,11 +19,29 @@ int factorial(int n ){
     return n * factorial(n-1);
 }
 
+
+
+// Reverse a given Array using recursion 
+
+void reversearray(vector<int>& arr , int left , int right){
+    if (left >=  right){
+        return;
+    }
+
+    swap(arr[left], arr[right]);
+
+    reversearray(arr, left+1, right-1);
+
+}
+
 int main(){
-    int n ;
-    cout << "Enter value of N: "<< " " ;
-    cin >> n ;
-    cout << "the FACTORIAL OF N : "<< factorial(n) << endl;
+    vector<int> arr = {1,2,3,4,5,6,7,8,9,10};
+
+    reversearray(arr, 0 , arr.size()-1);
+
+    for (auto x : arr){
+        cout << x << "  ";
+    }
 
     
 }
