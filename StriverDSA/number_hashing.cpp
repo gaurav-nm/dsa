@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std ;
 
-// Number Hasing 
+// Number Hashing 
 
 int main(){
     int n ;
@@ -10,7 +10,7 @@ int main(){
 
     int arr[n];
     for (int i = 0 ; i < n ; i++){
-        cout << "Enter "<< i+1 << "Element : " ;
+        cout << "Enter "<< i+1 << " Element : " ;
         cin >> arr[i];
     }
 // precompute hashing 
@@ -21,18 +21,15 @@ int main(){
     }
 
     int q;
+    cout << "How many elements you wanna search ? :";
     cin >> q ;
     while(q--){
+        cout << "Enter number to search :";
         int number ;
         cin >> number ;
 
-        cout << hash[number] << endl ;
+        cout << number << " --> " << hash[number] << endl ;
     }
-
-
-
-
-
 
     return 0;
 }
