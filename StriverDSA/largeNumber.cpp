@@ -18,10 +18,10 @@ int main(){
 
     }
 
-    //iterate over map ;
-    for ( auto i : mp){
-        cout << i.first << " --> " << i.second << endl;
-    }
+    // //iterate over map ;
+    // for ( auto i : mp){
+    //     cout << i.first << " --> " << i.second << endl;
+    // }
 
     // query ;
 
@@ -35,7 +35,7 @@ int main(){
 
         //fetch
         cout << mp[number] << endl ;
-        
+
      }
 
 
